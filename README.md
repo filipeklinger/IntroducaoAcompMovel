@@ -1,7 +1,7 @@
-#Arquivos das aulas de computação móvel
+# Arquivos das aulas de computação móvel
 os arquivos serão inseridos comforme as aulas forem acontecendo
 
-##Instalação
+## Instalação
 
 Clone o repositório na sua maquina e abra os projetos.
 Nessa estrutura cada pasta é um projeto independente.
