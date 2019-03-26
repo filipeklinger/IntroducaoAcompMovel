@@ -1,5 +1,5 @@
 # Arquivos das aulas de computação móvel
-os arquivos serão inseridos comforme as aulas forem acontecendo
+os arquivos serão inseridos conforme as aulas forem acontecendo
 
 ## Instalação
 
