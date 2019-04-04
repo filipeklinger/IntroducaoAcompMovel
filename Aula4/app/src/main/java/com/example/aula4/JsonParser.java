@@ -20,7 +20,7 @@ public class JsonParser {
     public String getJson(){
         String json;
         try {
-            InputStream is = mContext.getAssets().open("climatempo.json");
+            InputStream is = mContext.getResources().openRawResource(R.raw.climatempo);
             int size = is.available();
             byte[] buffer = new byte[size];
             //noinspection ResultOfMethodCallIgnored
