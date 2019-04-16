@@ -19,23 +19,16 @@ public class Clima {
     public void setCountry(String country){
         this.country = country;
     }
-
     public void setDados(Dados dados){
         arrayDados.add(dados);
     }
 
     //getters
     public String getNome() { return nome; }
-
     public String getSigla() { return sigla; }
-
     public String getCountry() { return country; }
-
     public ArrayList<Dados> getArrayDados() { return arrayDados; }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
+    public void setNome(String nome) { this.nome = nome; }
 
     //objeto dados que representa cada dia sobre o Clima
     public static class Dados{
@@ -46,12 +39,12 @@ public class Clima {
         public Dados(){
         }
 
-        //setters
+        //setters dos dados
         public void setData(String data) { this.data = data;}
         public void setHumidade(int min,int max) { this.humidade = new Humidade(min,max); }
         public void setTemperatura(int min,int max) { this.temperatura = new Temperatura(min,max); }
 
-        //getters
+        //getters dos dados
         public String getData(){ return this.data; }
         public Humidade getHumidade(){ return this.humidade;}
         public Temperatura getTemperatura(){ return this.temperatura;}
@@ -65,11 +58,12 @@ public class Clima {
                 this.minima = min;
                 this.maxima = max;
             }
-            //getters
+            //getters da humidade
             public int getMinima(){ return this.minima; }
             public int getMaxima(){ return this.maxima; }
 
         }
+
         //objeto Temp
         public class Temperatura{
             private int minima,maxima;
@@ -79,7 +73,7 @@ public class Clima {
                 this.maxima = max;
             }
 
-            //getters
+            //getters da temperatura
             public int getMinima(){ return this.minima; }
             public int getMaxima(){ return this.maxima; }
 
