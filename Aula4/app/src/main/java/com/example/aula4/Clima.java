@@ -2,6 +2,7 @@ package com.example.aula4;
 
 import java.util.ArrayList;
 
+@SuppressWarnings("ALL")
 public class Clima {
     private String nome,sigla,country;
     private ArrayList<Dados> arrayDados;
